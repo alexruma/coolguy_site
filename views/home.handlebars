@@ -1,0 +1,191 @@
+
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+  <link type="text/css" href="/css/home.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <span id = "back-btn" class = 'image-btn'> &lt; </span>
+     <div id = 'carousel'>
+        <img src = "/images/coolal.jpg" class = "carousel-images" id = "carousel-1">
+        <img src = "/images/ben.png" class = "carousel-images" id = "carousel-2">
+        <img src = "/images/grilled_cheese.png" class = "carousel-images" id = "carousel-3">  
+    </div>
+    <span id = "next-btn" class = 'image-btn'> &gt; </span>
+    
+  <div id="headlines">
+  <h1> Build Your Own Sandwich</h1>
+  <h3>You know you want to...</h3>
+  </div>
+
+   <div id='start-btn-div'>
+      <button id='start-order' type='button'>Start Order</button>
+     <img id='sub-pic'src="https://pngimage.net/wp-content/uploads/2018/06/sub-sandwich-png-1.png">
+    
+  </div>
+  <div id='size-select'>
+    Select size: <span id='select-six-span'> 6" <input type='radio' id='select-six' name='size' value='6in'> </span>
+ <span id='select-twelve-span'>   12" <input type='radio' id='select-twelve' name='size' value='12in'> </span>
+  </div>
+  <div id='order-form'>
+  <div id='bread-header' class='header'>
+      <span class='header-text'>Select your bread</span>
+  </div>
+  <div id='bread-select' class='select-box'>
+    <div id='item-wheat' class='item'>
+    <button id='wheat-select' class='bread-select-btn' value='wheat'>+</button>
+    <button id='wheat-deselect' class='bread-deselect-btn' value='wheat'>x</button>
+    
+    Wheat <span id="wheat-cal"></span>
+    </div>
+    <div id='item-italian' class='item'>
+    <button id='italian-select' class='bread-select-btn' value='italian'>+</button>
+    <button id='italian-deselect' class='bread-deselect-btn' value='italian'>x</button>
+    Italian <span id="italian-cal"></span>
+    </div>
+    <div id='item-sourdough' class='item'>
+    <button id='sourdough-select' class='bread-select-btn' value='sourdough'>+</button>
+    <button id='sourdough-deselect' class='bread-deselect-btn' value='sourdough'>x</button>
+    Sourdough <span id="sourdough-cal"></span>
+    </div>
+  </div>
+    <!--end bread select-->
+  
+    <div id='meat-header' class='header'>
+    <span class='header-text'>Select your meat</span>Each sandwich comes with choice of one meat. Additional meats are $1.00 each.<span></span
+  </div>
+      </div>
+   <div id='meat-select' class='select-box'>
+    <div id='item-turkey' class='item'>
+    <button id='turkey-select' class='meat-select-btn' value='turkey'>+</button>
+    <button id='turkey-deselect' class='meat-deselect-btn' value='turkey' value='turkey'>x</button>
+    
+    Turkey <span id="turkey-cal"></span>
+    </div>
+     <div id='item-chicken' class='item'>
+    <button id='chicken-select' class='meat-select-btn' value='chicken'>+</button>
+    <button id='chicken-deselect' class='meat-deselect-btn' value='chicken'>x</button>
+    
+   Grilled Chicken <span id="chicken-cal"></span>
+    </div>
+     <div id='item-italianTrio' class='item'>
+    <button id='italianTrio-select' class='meat-select-btn' value='italianTrio'>+</button>
+    <button id='italianTrio-deselect' class='meat-deselect-btn' value='italianTrio'>x</button>
+    
+   Italian Trio (salami, ham and capicola) <span id="italianTrio-cal"></span>
+    </div>
+        <div id='item-roastBeef' class='item'>
+    <button id='roastBeef-select' class='meat-select-btn' value='roastBeef'>+</button>
+    <button id='roastBeef-deselect' class='meat-deselect-btn' value='roastBeef'>x</button>
+    
+   Roast Beef <span id="roastBeef-cal"></span>
+    </div>
+     
+     </div>
+      <!--end meat select-->
+       <div id='cheese-header' class='header'>
+    <span class='header-text'>Select your cheese</span>Each sandwich comes with choice of one cheese. Additional cheeses are 50&cent; each.<span></span>
+  </div>
+   <div id='cheese-select' class='select-box'>
+      <div id='item-provolone' class='item'>
+    <button id='provolone-select' class='cheese-select-btn' value='provolone'>+</button>
+    <button id='provolone-deselect' class='cheese-deselect-btn' value='provolone' >x</button>
+    
+    Provolone <span id="provolone-cal"></span>
+    </div>
+    
+      <div id='item-cheddar' class='item'>
+    <button id='cheddar-select' class='cheese-select-btn' value='cheddar'>+</button>
+    <button id='cheddar-deselect' class='cheese-deselect-btn' value='cheddar' >x</button>
+    
+    Cheddar <span id="cheddar-cal"></span>
+    </div>
+     
+      <div id='item-swiss' class='item'>
+    <button id='swiss-select' class='cheese-select-btn' value='swiss'>+</button>
+    <button id='swiss-deselect' class='cheese-deselect-btn' value='swiss' >x</button>
+    
+    Swiss <span id="swiss-cal"></span>
+    </div>
+     
+         </div>
+      
+      <div id='veggie-header' class='header'>
+        <span class='header-text'> Vegetables</span><span>Load up! They're free.</span>
+    </div>
+      <div id='veggie-select' class='select-box'>
+         <div id='item-lettuce' class='item'>
+    <button id='lettuce-select' class='extra-select-btn' value='lettuce'>+</button>
+    <button id='lettuce-deselect' class='extra-deselect-btn' value='lettuce' >x</button>
+                  Lettuce <span id="lettuce-cal"></span>
+  </div>
+      <div id='item-tomatoes' class='item'>
+    <button id='tomatoes-select' class='extra-select-btn' value='tomatoes'>+</button>
+    <button id='tomatoes-deselect' class='extra-deselect-btn' value='tomatoes' >x</button>
+                  Tomatoes <span id="tomatoes-cal"></span>
+  </div>
+                   
+        
+      </div>
+      <!--end veggies-->
+         
+          <div id='extra-header' class='header'>
+    <span class='header-text'> Extras</span>
+    </div>
+   <div id='extra-select' class='select-box'>
+               <div id='item-hotPepper' class='item'>
+    <button id='hotPepper-select' class='extra-select-btn' value='hotPepper'>+</button>
+    <button id='hotPepper-deselect' class='extra-deselect-btn' value='hotPepper' >x</button>
+                 Hot Peppers <span id="hotPepper-cal"> </span> <div class='price-span' data-value='hotPepper'></div>
+  </div>
+            
+   
+                 <div id='item-avocado' class='item'>
+    <button id='avocado-select' class='extra-select-btn' value='avocado'>+</button>
+    <button id='avocado-deselect' class='extra-deselect-btn' value='avocado' >x</button>
+                           Avocado <span id="avocado-cal"></span> <div class='price-span' data-value='avocado'></div>
+  </div>
+                   <div id='item-pesto' class='item'>
+    <button id='pesto-select' class='extra-select-btn' value='pesto'>+</button>
+    <button id='pesto-deselect' class='extra-deselect-btn' value='pesto' >x</button>
+                           Pesto <span id="pesto-cal"></span>
+                     <div class='price-span' data-value='pesto'></div>
+  </div>
+  </div>
+         <button id='end-order'>Finish Order</button>
+      <div id='final-popup'>
+        <div id='total'></div>
+        
+      </div>
+        <button id='add-sand' onclick="addSandwich()">Add another sandwhich</button>
+      </div>
+  
+     </div> <!--end order form-->
+    
+     
+      
+      <div id='add-item'>
+        Item name (Must be single word. No spaces): <input id='new-name'></input>
+    <br>
+    Item type (Select from dropdown list): <input id='new-type' list='types'></input>
+  <datalist id='types'>
+    <option value='meat'>Meat</option>
+    <option value='bread'>Bread</option>
+    <option value='cheese'>Cheese</option>
+    <option value='extra'>Other</option>
+    <option value='extra'>Vegetable</option>
+  </datalist>
+   
+  <br>
+  Price: <input id='new-price' type='number'></input>
+<br>
+Calories on six inch: <input id='new-calories6' type='number'></input>
+Calories on twelve inch: <input id='new-calories12' type='number'></input>
+<br>
+<button id='new-add' >Add</button>
+      </div>
+
+</body>
+<script src = "/scripts/home.js"></script>

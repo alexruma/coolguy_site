@@ -1,0 +1,276 @@
+html {
+    height: 100%;
+}
+header{
+  background-color:#0f1d33;
+  border: solid black;
+  margin:-.6% -2.6% 3% -2.6%;
+  color:white;
+  padding-left:2.8%;
+  font-family: 'Staatliches', cursive;
+  
+}
+.header-link{
+  color:#d5dbe5;
+  border-radius: 10%;
+  margin: 1.5%;
+}
+
+a:link {
+    text-decoration: none;
+  }
+a:hover{
+    background-color:#e5c939;
+      cursor: pointer;
+    }
+
+#slogan{
+padding: 3px;
+}
+#header-name{
+    padding: 3px;
+    text-align: center; 
+}
+
+body{
+ background-color: #fff2e6;
+background-image:         linear-gradient(top, #fff2e6 0%, #eee 300px); /* W3C */
+background-image:    -moz-linear-gradient(top, #fff2e6 0%, #eee 300px); /* FF3.6+ */
+background-image: -webkit-linear-gradient(top,#fff2e6 0%, #eee 300px); /* Chrome10+,Safari5.1+ */
+height:100%;
+}
+
+#carousel{
+    height:23%;
+    width:23%;
+    border: solid black;
+    margin:auto;
+    border-radius: 10%;
+}
+
+.carousel-images{
+    width: 100%;
+    height:100%;
+    display: none;
+    border-radius: 9%;
+}
+
+.image-btn{
+    cursor: pointer;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 28px;
+    border: thin black;
+    border-radius: 20%;
+    margin-left: 49%;
+    margin-bottom: 1.75%;
+    margin-top: 1.75%;
+    font-family: 'Staatliches', cursive;
+}
+.image-btn:hover{
+    background-color:#e5c939;
+    opacity: 0.5;
+}
+
+#headlines{
+    font-family: 'Staatliches', cursive;
+    text-shadow: 1px .8px gray;
+    margin-top: 3%
+    
+  }
+  h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #start-btn-div{
+    margin-top:3%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+   
+  }
+  #sub-pic{
+    width:18%;
+    order<2>;
+    padding:2%;
+  }
+  #start-order{
+     border:solid black;
+    border-radius:2%;
+  }
+  
+  #size-select{
+     display:none;
+    font-family: 'Staatliches', cursive;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    
+   
+   }
+  #select-six-span{
+    order<1>;
+  }
+  #select-six{
+    margin-left:.65em;
+  }
+  #select-twelve-span{
+    order<2>;
+  }
+  #order-form{
+     display:none;
+    font-family: 'Staatliches', cursive;
+   align-items: center;
+    justify-content: center;
+    flex-direction:column;
+   
+   
+  }
+  .item{
+    margin:2% 0% 0% 1%;
+  }
+  .header{
+    background-color:#e5c939;
+   
+    margin:2% -.45% 0% -.45%;
+    padding:6px;
+  }
+  
+  .bread-select-btn{
+   
+   
+  }
+
+  button{
+    border-radius: 10%;
+    font-family: 'Roboto', sans-serif;
+    background:transparent;
+    border-width:0;
+    font-size: 16px;
+    font-weight:bold;
+  }
+  button:hover{
+  background-color:#e5c939;
+    cursor: pointer;
+  }
+  .meat-select-btn:hover {
+    color: #2a9926;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+    .cheese-select-btn:hover {
+    color: #2a9926;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+  .bread-select-btn:hover {
+    color:#2a9926;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+  .extra-select-btn:hover {
+    color: #2a9926;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+  
+  .cheese-select-btn{
+  
+  }
+  
+  .extra-select-btn{
+    
+  }
+  .bread-deselect-btn:hover{
+    color:red;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+  .meat-deselect-btn:hover{
+    color:red;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+  .cheese-deselect-btn:hover{
+    color:red;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+  .extra-deselect-btn:hover{
+    color:red;
+   
+    background-color:#c0d0ea;
+    border-radius:10%;
+  }
+  .bread-deselect-btn{
+    display:none;
+  }
+  .meat-deselect-btn{
+    display:none;
+  }
+  .cheese-deselect-btn{
+    display:none;
+  }
+  .extra-deselect-btn{
+    display:none;
+  }
+  .select-box{
+     margin:2% 0% 2% 0%;
+  }
+  
+  .header-text{
+    font-weight:bold;
+    margin:0% 1% 0% 0%;
+  }
+  
+  
+  #final-popup{
+    border: solid black;
+    border-width: .9px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.6);
+    border-radius: .5%;
+    overflow-y:auto;
+    background-color:white;
+    width: 45%;
+    margin: auto;
+    position: absolute;
+    left:27.5%;
+    top:10%;
+    padding: 15px;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  
+  }
+  #final-popup{
+    display:none;
+  }
+  #add-item{
+    margin-top:5%;
+    display:none;
+  }
+  #end-order{
+    border:solid black;
+      border-radius:10%;
+  }
+  #end-order:hover{
+    border:solid black;
+    background-color:#e5c939;
+  
+  }
+  .price-span{
+    margin:.4%;
+  }
